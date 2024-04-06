@@ -1,6 +1,18 @@
 ## About Me
 
 Hello there! 👋 I'm Onwabe Zibeke, a software developer who recently graduated from Durban University of Technology with a NQF level 7 degree in Information and Communication Development. I'm passionate about crafting efficient and elegant solutions to real-world problems through code.
+## You Can find me here
+<div display="flex">
+  <a href="https://www.linkedin.com/in/onwabe-zibeke-74b329228/">
+    <img src="linkedin.png" alt="LinkedIn"/>
+  </a>
+  <a href="https://web.facebook.com/zibekeonwabe">
+    <img src="facebook.png" alt="Facebook"/>
+  </a>
+  <a href="https://wa.me/2784300901">
+    <img src="whatsapp.png" alt="WhatsApp"/>
+  </a>
+</div>
 
 ## Skills
 
