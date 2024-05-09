@@ -24,7 +24,7 @@
   
 <a target="_blank" href="https://www.facebook.com/https://www.facebook.com/profile.php?id=100082089620562" style="display: inline-block;"><img src="https://img.shields.io/badge/facebook-logo?style=for-the-badge&logo=facebook&logoColor=white&color=%230866ff" alt="facebook" /></a>
 
-<a target="_blank" href="www.youtube.com/@goeasyacademy91877" style="display: inline-block;"><img src="https://img.shields.io/badge/youtube-logo?style=for-the-badge&logo=youtube&logoColor=white&color=%23cc0000" alt="youtube" /></a></p>
+<a target="_blank" href="https://youtube.com/@goeasyacademy9187?si=1O7dSsdnk5A5P1p1" style="display: inline-block;"><img src="https://img.shields.io/badge/youtube-logo?style=for-the-badge&logo=youtube&logoColor=white&color=%23cc0000" alt="youtube" /></a></p>
 
 <p><img align="center" src="https://github-readme-stats.vercel.app/api?username=Onwabe23&show_icons=true&locale=en" alt="Onwabe23" /></p>
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Onwabe23&" alt="Onwabe23" /></p>
