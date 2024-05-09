@@ -20,7 +20,7 @@
 <li><a target="_blank" href="https://arpanet-45562.web.app">Image saver</a></li>
 <li><a target="_blank" href="https://online-shop-f7cf2.web.app">Shopping cart</a></li>
 <h2>⚡️ Where to find me</h2>
-<p><a target="_blank" href="in/onwabe-zibeke-74b329228" style="display: inline-block;"><img src="https://img.shields.io/badge/linkedin-logo?style=for-the-badge&logo=linkedin&logoColor=white&color=%230a77b6" alt="linkedin" /></a>
+<p><a target="_blank" href="in/onwabe-zibeke-74b329228" style="display: inline-block;"><img src="https://www.linkedin.com/in/onwabe-zibeke-74b329228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" alt="linkedin" /></a>
   
 <a target="_blank" href="https://www.facebook.com/https://www.facebook.com/profile.php?id=100082089620562" style="display: inline-block;"><img src="https://img.shields.io/badge/facebook-logo?style=for-the-badge&logo=facebook&logoColor=white&color=%230866ff" alt="facebook" /></a>
 
