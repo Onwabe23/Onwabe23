@@ -15,8 +15,8 @@
 <a target="_blank" href="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" style="display: inline-block;"><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="42" height="42" /></a></p>
 <h2>✒️ Recent Posts</h2>
 <ul>
-  <li><a target="_blank" href=" https://esgela.onrender.com">Esgela.com</a></li>
-<li><a target="_blank" href=" https://fixtureapp-e3601.web.app">Football Fixture Maker</a></li>
+  <li><a target="_blank" href="https://esgela.onrender.com">Esgela.com</a></li>
+<li><a target="_blank" href="https://fixtureapp-e3601.web.app">Football Fixture Maker</a></li>
 <li><a target="_blank" href="https://arpanet-45562.web.app">Image saver</a></li>
 <li><a target="_blank" href="https://online-shop-f7cf2.web.app">Shopping cart</a></li>
 <h2>⚡️ Where to find me</h2>
