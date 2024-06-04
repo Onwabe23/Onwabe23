@@ -1,1 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onwabe Zibeke - Software Developer</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Custom CSS for responsive design */
+        @media (max-width: 768px) {
+            .nav-toggle {
+                display: block;
+            }
+            .nav-items {
+                display: none;
+            }
+            .nav-active .nav-items {
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body class="bg-black text-white">
+    <!-- Header Section -->
+    <header class="bg-gray-900 shadow-md">
+        <div class="container mx-auto flex justify-between items-center p-5">
+            <h1 class="sm:text-4xl mt-5 md:text-3xl font-bold text-yellow-500">Zibeke Onwabe</h1>
+            <button class="nav-toggle md:hidden">
+                <i class="fas fa-bars text-gray-300"></i>
+            </button>
+            <nav class="nav-items md:flex">
+                <ul class="flex space-x-4 mt-5">
+                    <li><a href="#about" class="text-gray-300 font-bold hover:text-yellow-500">About</a></li>
+                    <li><a href="#projects" class="text-gray-300 font-bold hover:text-yellow-500">Projects</a></li>
+                    <li><a href="#contact" class="text-gray-300 font-bold hover:text-yellow-500">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
+    <!-- Hero Section -->
+    <section class="bg-gray-800">
+        <div class="container mx-auto flex flex-col md:flex-row items-center p-10">
+            <div class="md:w-1/2">
+                <img src="onwabee.jpg" alt="Onwabe Zibeke" class="rounded-lg shadow-lg w-full md:w-3/4">
+            </div>
+            <div class="md:w-1/2 mt-5 md:mt-0 md:ml-10">
+                <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-yellow-500">Hello, I'm Onwabe Zibeke</h2>
+                <p class="mt-4 text-gray-300">
+                    I am a software developer who recently graduated from Durban University of Technology with a NQF level 7 degree in Information and Communication Technology. I'm passionate about crafting efficient and elegant solutions to real-world problems through code.
+                </p>
+                <div class="mt-5 flex space-x-3">
+                    <a href="ZibekeOnwabe_.pdf" class="bg-yellow-500 text-white px-4 py-2 rounded-lg flex items-center space-x-2">
+                        <i class="fas fa-download"></i>
+                        <span>Download CV</span>
+                    </a>
+                    <a href="https://wa.me/27784300901" class="bg-green-500 text-white px-4 py-2 rounded-lg flex items-center space-x-2">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>Send WhatsApp</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container mx-auto my-10 p-5">
+        <div class="bg-gray-800 p-10 rounded-lg shadow-lg">
+            <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-yellow-500 mb-5">About Me</h2>
+            <p class="text-gray-300">
+                Hello, I'm Onwabe Zibeke, a software developer who recently graduated from Durban University of Technology with a NQF level 7 degree in Information and Communication Technology. Throughout my academic journey, I specialized in Software Development, which equipped me with a solid foundation in coding, problem-solving, and project management.
+            </p>
+            <p class="text-gray-300 mt-4">
+                I am passionate about crafting efficient and elegant solutions to real-world problems through code. My drive stems from a deep-seated curiosity and a love for technology. I thrive on challenges and constantly seek opportunities to expand my knowledge and skill set.
+            </p>
+            <p class="text-gray-300 mt-4">
+                My expertise spans various technologies and frameworks, including React, EJS, Node.js with Express, and MongoDB. I am proficient in front-end technologies like HTML, CSS, TailwindCSS, JavaScript, and Bootstrap. In my projects, I strive to write clean, maintainable code and implement best practices to ensure high-quality software.
+            </p>
+            <p class="text-gray-300 mt-4">
+                While I do not have professional experience, I have gained substantial experience through hands-on projects. These projects have allowed me to apply my skills in real-world scenarios, collaborate with peers, and deliver functional and user-friendly applications.
+            </p>
+            <p class="text-gray-300 mt-4">
+                As I embark on my professional journey, my goal is to contribute to innovative projects that make a meaningful impact. I am particularly interested in areas such as web development and mobile applications.
+            </p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="bg-gray-900 py-10">
+        <div class="container mx-auto p-5">
+            <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-yellow-500 mb-5 text-center">Projects</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+                <!-- Project 1 -->
+                <div class="bg-gray-800 p-5 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-semibold text-white">Project 1</h3>
+                    <p class="text-gray-300 mt-2">
+                        This is an online application system, where applicants can send in their application for an online school (Esgela). Once a user successfully sends his/her form, a random unique student number of 8 numbers starting with 24 (current year) will be given to each student. A student can then log in using his/her student number or SA ID number together with his/her password. This is a dynamic website created using Node.js with Express.js and MongoDB as our database and EJS with CSS for frontend.
+                    </p>
+                    <a href="https://esgela.onrender.com" class="bg-yellow-500 text-white px-4 py-2 mt-3 inline-block rounded-lg flex items-center space-x-2">
+                        <i class="fas fa-link"></i>
+                        <span>View Project</span>
+                    </a>
+                </div>
+                <!-- Project 2 -->
+                <div class="bg-gray-800 p-5 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-semibold text-white">Project 2</h3>
+                    <p class="text-gray-300 mt-2">
+                        This is a fixture generator website where hosts of tournaments like soccer, netball, etc. can toss teams by entering the number of teams and their names. After entering teams, the website automatically pairs the teams and gives each team their start. It’s a front-end project that stores teams in local storage and allows users to create a league where every team can play at least one single game a day unless there is a standby. It ensures a team can play with every other team at least once on different days.
+                    </p>
+                    <a href="https://fixtureapp-e3601.web.app" class="bg-yellow-500 text-white px-4 py-2 mt-3 inline-block rounded-lg flex items-center space-x-2">
+                        <i class="fas fa-link"></i>
+                        <span>View Project</span>
+                    </a>
+                </div>
+                <!-- Project 3 -->
+                <div class="bg-gray-800 p-5 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-semibold text-white">Project 3</h3>
+                    <p class="text-gray-300 mt-2">
+                        This project allows users to store their images, helping users who are not comfortable saving their images on social media for any reason. A user can create an account, log in, and post his/her pictures, and can later come back and download them. This is a front-end project and therefore uses local storage to save images and user login details.
+                    </p>
+                    <a href="https://arpanet-45562.web.app" class="bg-yellow-500 text-white px-4 py-2 mt-3 inline-block rounded-lg flex items-center space-x-2">
+                        <i class="fas fa-link"></i>
+                        <span>View Project</span>
+                    </a>
+                </div>
+            </div>
+            <div class="mt-10 text-center">
+                <h3 class="text-xl font-semibold text-white mb-3">Other Links</h3>
+                <div class="flex justify-center space-x-4">
+                    <a href="https://github.com/Onwabe23" class="bg-yellow-500 text-white px-4 py-2 rounded-lg flex items-center space-x-2">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://online-shop-f7cf2.web.app" class="bg-yellow-500 text-white px-4 py-2 rounded-lg flex items-center space-x-2">
+                        <i class="fas fa-link"></i>
+                        <span>Online Shopping Website</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container mx-auto my-10 p-5">
+        <div class="bg-gray-800 p-10 rounded-lg shadow-lg">
+            <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-yellow-500 mb-5">Contact Me</h2>
+            <form action="https://formsubmit.co/zibekeonwabe@gmail.com" method="POST" class="space-y-5">
+                <input type="hidden" name="_subject" value="New Contact Form Submission">
+                <div>
+                    <label for="name" class="block text-gray-300">Name</label>
+                    <input type="text" id="name" name="name" class="w-full mt-1 p-2 border border-gray-600 rounded-lg bg-gray-700 text-white" required>
+                </div>
+                <div>
+                    <label for="email" class="block text-gray-300">Email</label>
+                    <input type="email" id="email" name="email" class="w-full mt-1 p-2 border border-gray-600 rounded-lg bg-gray-700 text-white" required>
+                </div>
+                <div>
+                    <label for="message" class="block text-gray-300">Message</label>
+                    <textarea id="message" name="message" class="w-full mt-1 p-2 border border-gray-600 rounded-lg bg-gray-700 text-white" required></textarea>
+                </div>
+                <button type="submit" class="bg-yellow-500 text-white px-4 py-2 rounded-lg">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-900 text-gray-300 py-4">
+        <div class="container mx-auto text-center">
+            &copy; 2024 Onwabe Zibeke. All rights reserved.
+        </div>
+    </footer>
+
+    <!-- JavaScript for menu toggle -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const navToggle = document.querySelector('.nav-toggle');
+            const navItems = document.querySelector('.nav-items');
+
+            navToggle.addEventListener('click', () => {
+                navItems.classList.toggle('nav-active');
+            });
+        });
+    </script>
+</body>
+</html>
